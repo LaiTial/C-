@@ -21,7 +21,7 @@ int main(void)
 	while (space != answer[number])
 	{
 		cout << space << endl<< endl;
-		cout << "±ÛÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ";
+		cout << "ê¸€ìžë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ";
 		cin >> guess;
 
 		for (int i = 0; i < int(answer[number].length()); i++)
@@ -29,7 +29,7 @@ int main(void)
 				space[i] = guess;
 	}
 
-	cout << endl << space <<endl <<  "¼º°øÇÏ¿´½À´Ï´Ù!" << endl;
+	cout << endl << space <<endl <<  "ì„±ê³µí•˜ì˜€ìŠµë‹ˆë‹¤!" << endl;
 
 	return 0;
 }
