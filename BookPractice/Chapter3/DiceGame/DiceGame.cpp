@@ -1,6 +1,6 @@
 /*
-ÁÖ»çÀ§¸¦ ±¼·Á ÇÕÀÌ 7, 11ÀÌ¸é »ç¿ëÀÚ°¡ ÀÌ±â°í
-2, 3, 12ÀÌ¸é »ç¿ëÀÚ°¡ Áö´Â °ÔÀÓ
+ì£¼ì‚¬ìœ„ë¥¼ êµ´ë ¤ í•©ì´ 7, 11ì´ë©´ ì‚¬ìš©ìžê°€ ì´ê¸°ê³ 
+2, 3, 12ì´ë©´ ì‚¬ìš©ìžê°€ ì§€ëŠ” ê²Œìž„
 */
 
 #include <iostream>
@@ -19,12 +19,12 @@ int main(void)
 	y = rand() % 6 + 1;
 	sum = x + y;
 
-	cout << "»ç¿ëÀÚÀÇ ÁÖ»çÀ§: " << x << "+" << y << "=" << sum << endl;
+	cout << "ì‚¬ìš©ìžì˜ ì£¼ì‚¬ìœ„: " << x << "+" << y << "=" << sum << endl;
 
 	if ((sum == 7) || (sum == 11))
-		cout << "»ç¿ëÀÚ°¡ ÀÌ°å½À´Ï´Ù!" << endl;
+		cout << "ì‚¬ìš©ìžê°€ ì´ê²¼ìŠµë‹ˆë‹¤!" << endl;
 	else if ((sum == 2) || (sum == 3) || (sum == 12))
-		cout << "»ç¿ëÀÚ°¡ Á³½À´Ï´Ù!" << endl;
+		cout << "ì‚¬ìš©ìžê°€ ì¡ŒìŠµë‹ˆë‹¤!" << endl;
 
 	return 0;
 }
