@@ -8,7 +8,7 @@ int main(void)
 
 	while (true)
 	{
-		cout << "ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+		cout << "ì „í™”ë²ˆí˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 		getline(cin, oPhone);
 
 		if (oPhone == "quit")
