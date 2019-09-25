@@ -23,15 +23,15 @@ int main(void)
 		scranbleAnswer[num2] = temp;
 	}
 
-	cout << "½ºÅ©·¥ºí °ÔÀÓ-!" << endl;
+	cout << "ìŠ¤í¬ëž¨ë¸” ê²Œìž„-!" << endl;
 
 	while (guess != answer)
 	{
-		cout << scranbleAnswer << "ÀÇ ¿øÇüÀº? ";
+		cout << scranbleAnswer << "ì˜ ì›í˜•ì€? ";
 		cin >> guess;
 	}
 
-	cout << "¸ÂÃß¼Ì±º¿ä! ´ë´ÜÇÏ½Ê´Ï´Ù~!" << endl;
+	cout << "ë§žì¶”ì…¨êµ°ìš”! ëŒ€ë‹¨í•˜ì‹­ë‹ˆë‹¤~!" << endl;
 
 	return 0;
 }
