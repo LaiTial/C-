@@ -12,7 +12,7 @@ int main(void)
 
 	while (true)
 	{
-		cout << "ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+		cout << "전화번호를 입력하세요: ";
 		getline(cin, oPhone);
 
 		if (oPhone == "quit")
