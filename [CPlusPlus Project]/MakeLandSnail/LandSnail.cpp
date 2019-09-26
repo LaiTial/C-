@@ -1,3 +1,7 @@
+/*
+Get A number for users and print a Snail picture
+*/
+
 #include <iostream>
 
 using namespace std;
