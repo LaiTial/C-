@@ -8,7 +8,7 @@ int main(void)
 	string secretCode;
 	bool ch[3] = { false };
 
-	cout << "¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì•”í˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> secretCode;
 
 	for (int i = 0; i < (int)secretCode.length(); i++)
@@ -27,10 +27,10 @@ int main(void)
 	}
 
 	if (checkBool(ch))
-		cout << "¾ÈÀüÇÑ ¾ÏÈ£ÀÔ´Ï´Ù!" << endl;
+		cout << "ì•ˆì „í•œ ì•”í˜¸ìž…ë‹ˆë‹¤!" << endl;
 
 	else
-		cout << "¾ÈÀüÇÏÁö ¾ÊÀº ¾ÏÈ£ÀÔ´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä!" << endl;
+		cout << "ì•ˆì „í•˜ì§€ ì•Šì€ ì•”í˜¸ìž…ë‹ˆë‹¤. ë‹¤ì‹œ ìž…ë ¥í•´ì£¼ì„¸ìš”!" << endl;
 }
 
 bool checkBool(bool ch[])
